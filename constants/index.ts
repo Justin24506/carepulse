@@ -83,4 +83,8 @@ export const StatusIcon = {
   scheduled: "/assets/icons/check.svg",
   pending: "/assets/icons/pending.svg",
   cancelled: "/assets/icons/cancelled.svg",
+  Scheduled: "/assets/icons/check.svg",
+  Pending: "/assets/icons/pending.svg",
+  Cancelled: "/assets/icons/cancelled.svg",
+
 };
