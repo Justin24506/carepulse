@@ -13,7 +13,7 @@ import { Button } from "./ui/button";
 import AppointmentForm from "./forms/AppointmentForm";
 import { Appointment } from "@/types/appwrite.types";
 
-const AppointmentModal = ({ type, patientId, userId, appointment, title, description }: {
+const AppointmentModal = ({ type, patientId, userId, appointment }: {
   type: 'schedule' | 'cancel';
   patientId: string;
   userId: string;
