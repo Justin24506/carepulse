@@ -25,7 +25,7 @@ const AppointmentModal = ({ type, patientId, userId, appointment }: {
     <Dialog open={open} onOpenChange={setOpen}>
       <DialogTrigger>
         <Button asChild variant="ghost" className={`capitalize ${type === 'schedule' && 'text-green-500'}`}>
-          {type}
+          Hello {type}
         </Button>
       </DialogTrigger>
       <DialogContent className="shad-dialog sm:max-w-md">
