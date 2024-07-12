@@ -22,6 +22,7 @@ const AppointmentModal = ({ type, patientId, userId, appointment }: {
   const [open, setOpen] = useState(false);
 
   return (
+    <p> wfwbvb </p>
     {/* <Dialog open={open} onOpenChange={setOpen}>
       <DialogTrigger>
         <Button asChild variant="ghost" className={`capitalize ${type === 'schedule' && 'text-green-500'}`}>
@@ -45,7 +46,7 @@ const AppointmentModal = ({ type, patientId, userId, appointment }: {
           />
       </DialogContent>
     </Dialog> */}
-    <p> HI ndnsvabhjqbwviugnbwue</p>
+    
 
   )
 }
