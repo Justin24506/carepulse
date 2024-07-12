@@ -1,14 +1,12 @@
 "use client"
 
 import { ColumnDef } from "@tanstack/react-table"
-import { MoreHorizontal } from "lucide-react"
-import { Button } from "@/components/ui/button"
 import StatusBadge from "../StatusBadge"
 import { formatDateTime } from '@/lib/utils';
 import { Appointment } from "@/types/appwrite.types"
 import { Doctors } from "@/constants"
 import Image from "next/image"
-import AppointmentModal from "../AppointmentModal"
+import { AppointmentModal } from "../AppointmentModal"
 
 export const columns: ColumnDef<Appointment>[] = [
   {
