@@ -18,8 +18,6 @@ const AppointmentModal = ({ type, patientId, userId, appointment, title, descrip
   patientId: string;
   userId: string;
   appointment: Appointment;
-  title?: string; 
-  description?: string;
 }) => {
   const [open, setOpen] = useState(false);
 
