@@ -6,9 +6,9 @@ import React from 'react'
 const StatusBadge = ({ status }: {status: Status }) => {
   return (
     <div className={clsx('status-badge',{
-      'bg-green-600': status === 'scheduled'||'Scheduled',
-      'bg-blue-600': status === 'pending'||'Pending',
-      'bg-red-600': status === 'cancelled'||'Cancelled',
+      'bg-green-600': status === 'Scheduled',
+      'bg-blue-600': status === 'Pending',
+      'bg-red-600': status === 'Cancelled',
       
     })}>
       <Image 
@@ -19,9 +19,9 @@ const StatusBadge = ({ status }: {status: Status }) => {
         className='hi-fit w-3'
         />
         <p className={clsx('text-12-semibold',{
-          'text-green-500': status === 'scheduled'||'Scheduled',
-          'text-blue-500': status === 'pending'||'Pending',
-          'text-red-500': status === 'cancelled'||'Cancelled',
+          'text-green-500': status === 'Scheduled',
+          'text-blue-500': status === 'Pending',
+          'text-red-500': status === 'Cancelled',
         })}>
           {status}
         </p>
